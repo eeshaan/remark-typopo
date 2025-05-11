@@ -1,0 +1,12 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: daily
+    allow:
+      - dependency-name: "typopo"
+      - dependency-name: "unified"
+      - dependency-name: "unist-util-visit"
+    ignore:
+      - dependency-type: "dev"

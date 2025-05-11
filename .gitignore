@@ -1,0 +1,14 @@
+# build
+dist
+
+# npm
+node_modules
+npm-debug.log
+
+# tests
+vite.config.*.timestamp*
+vitest.config.*.timestamp*
+coverage
+
+# misc
+.DS_Store
